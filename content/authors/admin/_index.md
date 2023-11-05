@@ -22,16 +22,16 @@ role: CS PhD student
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Tel Aviv University University
-    url: https://www.stanford.edu/
+    url: https://en-exact-sciences.tau.ac.il/computer
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests lies in optimization and the design and analysis of algorithms.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Graph theory
+  - Cut problems
+  - Mean payoff games, Energy games
 
 # Education to show in About widget
 education:
