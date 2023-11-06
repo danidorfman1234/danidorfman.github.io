@@ -239,7 +239,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: dannatand@mail.tau.ac.il
       phone: +972 50 923 1009
-      appointment_url: 'https://calendly.com'
+    #  appointment_url: 'https://calendly.com'
       address:
         street: Check Point Building
         city: Tel Aviv
