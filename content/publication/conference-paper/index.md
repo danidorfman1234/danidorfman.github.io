@@ -50,7 +50,7 @@ url_pdf: ''
 #url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 #url_poster: ''
 #url_project: ''
-url_slides: ''
+#url_slides: ''
 #url_source: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 #url_video: 'https://youtube.com'
 
@@ -74,5 +74,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
