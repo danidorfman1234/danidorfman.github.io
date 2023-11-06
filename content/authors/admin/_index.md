@@ -36,15 +36,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in CS
+      institution: Tel Aviv University
+      year: 2019-now
+    - course: Msc in CS
+      institution: Tel Aviv University
+      year: 2018
+    - course: BSc in CS and Math
+      institution: Tel Aviv University
+      year: 2017
 
         
 
