@@ -30,7 +30,7 @@ bio: My research interests lies in optimization and the design and analysis of a
 # Interests to show in About widget
 interests:
   - Graph theory
-  - Cut problems
+  - Optimization
   - Mean payoff games, Energy games
 
 # Education to show in About widget
