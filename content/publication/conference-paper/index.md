@@ -30,10 +30,7 @@ publication_types: ['paper-conference']
 publication: In *ESA*
 publication_short: In *ESA*
 
-abstract: A weighted directed graph G=(V,A,c), where A⊆V×V and c:A→R, describes a road network in which an electric car can roam. An arc uv models a road segment connecting the two vertices u and v. The cost c(uv) of an arc uv is the amount of energy the car needs to traverse the arc. This amount may be positive, zero or negative. To make the problem realistic, we assume there are no negative cycles.
-The car has a battery that can store up to B units of energy. It can traverse an arc uv∈A only if it is at u and the charge b in its battery satisfies b≥c(uv). If it traverses the arc, it reaches v with a charge of min(b−c(uv),B). Arcs with positive costs deplete the battery, arcs with negative costs charge the battery, but not above its capacity of B.
-Given s,t∈V, can the car travel from s to t, starting at s with an initial charge b, where 0≤b≤B? If so, what is the maximum charge with which the car can reach t? Equivalently, what is the smallest δB,b(s,t) such that the car can reach t with a charge of b−δB,b(s,t), and which path should the car follow to achieve this? We refer to δB,b(s,t) as the energetic cost of traveling from s to t. We let δB,b(s,t)=∞ if the car cannot travel from s to t starting with an initial charge of b. The problem of computing energetic costs is a strict generalization of the standard shortest paths problem.
-We show that the single-source minimum energetic paths problem can be solved using simple, but subtle, adaptations of the Bellman-Ford and Dijkstra algorithms. To make Dijkstra's algorithm work in the presence of negative arcs, but no negative cycles, we use a variant of the A∗ search heuristic. These results are explicit or implicit in some previous papers. We provide a simpler and unified description of these algorithms.
+abstract: A weighted directed graph
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
