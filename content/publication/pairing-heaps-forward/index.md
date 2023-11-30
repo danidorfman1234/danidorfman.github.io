@@ -15,7 +15,7 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2018-09-01T00:00:00Z'
+date: '2018-01-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,10 +27,10 @@ publishDate: '2018-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *In Proc. of 26st ESA*
-publication_short: In *ESA*
+publication: In *MFCS*
+publication_short: In *MFCS*
 
-abstract: We revisit multipass pairing heaps and path-balanced binary search trees (BSTs), two classical algorithms for data structure maintenance. The pairing heap is a simple and efficient “selfadjusting” heap, introduced in 1986 by Fredman, Sedgewick, Sleator, and Tarjan. In the multipass variant (one of the original pairing heap variants described by Fredman et al.) the minimum item is extracted via repeated pairing rounds in which neighboring siblings are linked. Path-balanced BSTs, proposed by Sleator (cf. Subramanian, 1996), are a natural alternative to Splay trees (Sleator and Tarjan, 1983). In a path-balanced BST, whenever an item is accessed, the search path leading to that item is re-arranged into a balanced tree. Despite their simplicity, both algorithms turned out to be difficult to analyse. Fredman et al. showed that operations in multipass pairing heaps take amortized O(log n·log log n/ log log log n) time. For searching in path-balanced BSTs, Balasubramanian and Raman showed in 1995 the same amortized time bound of O(log n · log log n/ log log log n), using a different argument. In this paper we show an explicit connection between the two algorithms and improve the two bounds to O(log n · 2^log∗ n · log∗ n), respectively O(log n · 2^log∗ n ·(log∗n)^2), where log∗(·) denotes the very slowly growing iterated logarithm function. These are the first improvements in more than three, resp. two decades, approaching in both cases the information-theoretic lower bound of Ω(log n).
+abstract: The pairing heap is a classical heap data structure introduced in 1986 by Fredman, Sedgewick, Sleator, and Tarjan. It is remarkable both for its simplicity and for its excellent performance in practice. The “magic” of pairing heaps lies in the restructuring that happens after the deletion of the smallest item. The resulting collection of trees is consolidated in two rounds&colon; a left-to-right pairing round, followed by a right-to-left accumulation round. Fredman et al. showed, via an elegant correspondence to splay trees, that in a pairing heap of size n all heap operations take O(log n) amortized time. They also proposed an arguably more natural variant, where both pairing and accumulation are performed in a combined left-to-right round (called the forward variant of pairing heaps). The analogy to splaying breaks down in this case, and the analysis of the forward variant was left open. In this paper we show that inserting an item and deleting the minimum in a forward-variant pairing heap both take amortized time O(log n · 4^&radic;(log n)). This is the first improvement over the O(&radic;(n)) bound showed by Fredman et al. three decades ago. Our analysis relies on a new potential function that tracks parent-child rank-differences in the heap.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
