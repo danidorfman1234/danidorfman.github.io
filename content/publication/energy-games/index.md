@@ -34,7 +34,7 @@ abstract: We present an improved exponential time algorithm for Energy Games, an
 Payoff Games. The running time of the new algorithm is O(min(mnW, m 2^{n/2})), where n is the
 number of vertices, m is the number of edges, and when the edge weights are integers of absolute value
 at most W. For small values of W, the algorithm matches the performance of the pseudopolynomial
-time algorithm of Brim et al., on which it is based. For W &ge; 2^{n/2}, the new algorithm is faster than
+time algorithm of Brim et al., on which it is based. For W > 2^{n/2}, the new algorithm is faster than
 the algorithm of Brim et al. and is currently the fastest deterministic algorithm for Energy Games
 and Mean Payoff Games. The new algorithm is obtained by introducing a technique of forecasting
 repetitive actions performed by the algorithm of Brim et al.
