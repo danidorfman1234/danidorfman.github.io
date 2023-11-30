@@ -30,7 +30,14 @@ publication_types: ['paper-conference']
 publication: International Colloquium on Automata, Languages, and Programming (ICALP 2019)
 publication_short: In *ICALP*
 
-abstract: An electric car equipped with a battery of a finite capacity travels on a road network with an infrastructure of charging stations. Each charging station has a possibly different cost per unit of energy. Traversing a given road segment requires a specified amount of energy that may be positive, zero or negative. The car can only traverse a road segment if it has enough charge to do so (the charge cannot drop below zero), and it cannot charge its battery beyond its capacity. To travel from one point to another the car needs to choose a travel plan consisting of a path in the network and a recharging schedule that specifies how much energy to charge at each charging station on the path, making sure of having enough energy to reach the next charging station or the destination. The cost of the plan is the total charging cost along the chosen path. We reduce the problem of computing plans between every two junctions of the network to two problems- Finding optimal energetic paths when no charging is allowed and finding standard shortest paths. When there are no negative cycles in the network, we obtain an O(n3)-time algorithm for computing all-pairs travel plans, where n is the number of junctions in the network. We obtain slightly faster algorithms under some further assumptions. We also consider the case in which a bound is placed on the number of rechargings allowed.
+abstract: We present an improved exponential time algorithm for Energy Games, and hence also for Mean
+Payoff Games. The running time of the new algorithm is O(min(mnW, m 2^{n/2})), where n is the
+number of vertices, m is the number of edges, and when the edge weights are integers of absolute value
+at most W. For small values of W, the algorithm matches the performance of the pseudopolynomial
+time algorithm of Brim et al., on which it is based. For W &ge; 2^{n/2}, the new algorithm is faster than
+the algorithm of Brim et al. and is currently the fastest deterministic algorithm for Energy Games
+and Mean Payoff Games. The new algorithm is obtained by introducing a technique of forecasting
+repetitive actions performed by the algorithm of Brim et al.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
