@@ -81,5 +81,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a CS PhD student at Tel Aviv University. My research interests lie in optimization and the design and analysis of algorithms.
+I'm a Postdoc at Max Plank Institure for Informatics, Saarbrüken. My research interests lie in optimization and the design and analysis of algorithms.
+I recently lost a bet 😅
 {style="text-align: justify;"}
