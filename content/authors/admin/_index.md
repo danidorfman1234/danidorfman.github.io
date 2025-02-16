@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: CS PhD student 
+role: Postdoctoral researcher 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tel Aviv University University
-    url: https://en-exact-sciences.tau.ac.il/computer
+  - name: Max Plank Institute for Informatics
+    url: https://www.mpi-inf.mpg.de/departments/algorithms-complexity
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests lies in optimization and the design and analysis of algorithms.
@@ -38,7 +38,7 @@ education:
   courses:
     - course: PhD in CS
       institution: Tel Aviv University
-      year: 2019-now
+      year: 2019-2024
     - course: Msc in CS
       institution: Tel Aviv University
       year: 2018
@@ -81,6 +81,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a Postdoc at Max Plank Institure for Informatics, Saarbrüken. My research interests lie in optimization and the design and analysis of algorithms.
-I recently lost a bet 😅
+I'm a Postdoc researcher at Max Plank Institure for Informatics, Saarbrüken. My research interests lie in optimization and the design and analysis of algorithms.
 {style="text-align: justify;"}
