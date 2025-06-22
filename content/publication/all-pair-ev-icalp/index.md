@@ -70,6 +70,8 @@ url_pdf: ''
 projects: []
 #  - example
 
+url_slides: "all-pairs-icalp25.pptx"
+
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
