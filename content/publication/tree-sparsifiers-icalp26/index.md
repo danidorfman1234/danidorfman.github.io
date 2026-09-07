@@ -7,7 +7,7 @@ authors:
   - Haim Kaplan
 
 date: '2026-07-01T00:00:00Z'
-doi: '10.4230/LIPIcs.ICALP.2026.7'
+doi: ''
 
 publishDate: '2026-07-01T00:00:00Z'
 
@@ -23,6 +23,9 @@ abstract: A tree cut-sparsifier T of quality α of a graph G is a single tree th
 tags: []
 
 url_pdf: ''
+
+url_slides: "tree-sparsifiers-icalp26.pptx"
+
 
 projects: []
 slides: ""
