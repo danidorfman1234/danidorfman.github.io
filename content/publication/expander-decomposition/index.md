@@ -28,7 +28,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *ICALP*
-publication_short: In *ICALP*
+publication_short: In *ICALP* 2023
 
 abstract: A (φ, ε)-expander decomposition of a graph G (with n vertices and m edges) is a partition of V into clusters V1, . . . , Vk with conductance Φ(G[Vi]) ≥ φ, such that there are at most εm inter-cluster edges. Such a decomposition plays a crucial role in many graph algorithms. We give a randomized O(m/φ) time algorithm for computing a (φ, φ log2 n)-expander decomposition. This improves upon the (φ, φ log3 n)-expander decomposition also obtained in  ̃O(m/φ) time by [Saranurak and Wang,SODA 2019] (SW) and brings the number of inter-cluster edges within logarithmic factor of optimal. One crucial component of SW’s algorithm is a non-stop version of the cut-matching game of [Khandekar, Rao, Vazirani, JACM 2009] (KRV)- The cut player does not stop when it gets from the matching player an unbalanced sparse cut, but continues to play on a trimmed part of the large side. The crux of our improvement is the design of a non-stop version of the cleverer cut player of [Orecchia, Schulman, Vazirani, Vishnoi, STOC 2008] (OSVV). The cut player of OSSV uses a more sophisticated random walk, a subtle potential function, and spectral arguments. Designing and analysing a non-stop version of this game was an explicit open question asked by SW.
 
