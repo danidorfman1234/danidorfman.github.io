@@ -81,5 +81,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a Postdoc researcher at Max Plank Institure for Informatics, Saarbrüken. My research interests lie in optimization and the design and analysis of algorithms.
+I'm a Postdoc researcher at Max Plank Institure for Informatics, Saarbrücken. My research interests lie in optimization and the design and analysis of algorithms.
 {style="text-align: justify;"}
